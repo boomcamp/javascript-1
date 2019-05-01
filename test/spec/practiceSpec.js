@@ -1,3 +1,30 @@
+const isNode = new Function(`
+  try {
+    return this === global;
+  } catch (e) {
+    return false;
+  }
+`);
+
+if (isNode()) {
+  // test if file is running in a node process
+  const fs = require('fs');
+  const path = require('path');
+
+  const filePath = path.resolve(__dirname, '../../'); // this should be the root dir
+  fs.readdirSync(filePath) // eval all of the js files faking how a browser would execute
+    .filter(path => {
+      if (path) {
+        return /\.js$/.test(path);
+      } else {
+        return false;
+      }
+    })
+    .forEach(file => {
+      eval(fs.readFileSync(file) + '');
+    });
+}
+
 function arrayIncludes(arr, values) {
   let allGood = true;
   for (let i = 0; i < values.length; i++) {
@@ -10,6 +37,7 @@ function arrayIncludes(arr, values) {
 }
 
 // Tests
+
 describe('javascript-1-assessment', function() {
   describe('Problem 1 - myName', function() {
     it('myName variable should exist', function() {
@@ -27,7 +55,7 @@ describe('javascript-1-assessment', function() {
       expect(typeof myAge).toBe('number');
     });
   });
-  describe('Problem 3 - myName', function() {
+  describe('Problem 3 - lovesCode', function() {
     it('lovesCode variable should exist', function() {
       expect(lovesCode).toBeDefined();
     });
