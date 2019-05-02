@@ -8,6 +8,7 @@ In this project, we'll provide practice JavaScript problems to help you better u
 
 * `Fork` this repository.
 * `Clone` your fork onto your local machine.
+* Open `./user.json` and fill in your details.
 * Open `./practice.js` with your code editor.
 * Open `./index.html` with your browser.
 
