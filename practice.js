@@ -30,7 +30,7 @@ var greatestFear;
 // Create a variable called boomCampGoal that is null because we are just starting out
 
 // Code here
-var boomCamoGoal = null;
+var boomCampGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -93,7 +93,7 @@ var boomCampClassPet = dog.name;
 // Code here
 function nameCheck(NAMEPARAM) {
 	if(NAMEPARAM==="Steven") {
-		return "What is up Steven";
+		return "What is up Steven?";
 	}
 	else if (NAMEPARAM === "Bryan") { return "Hey Bryan!"; }
 	else return "Cool name, " + NAMEPARAM;
@@ -138,16 +138,14 @@ let duck = 'cute';
 
 function bathroom() {
   let rubberDuck = 'squeaky';
-  let bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
-}
 function bathtub() {
     let sailorDuck = 'nautical';
-    let bathtubScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
   }
+}
 
 function pond() {
   let realDuck = 'fluffy';
-  let pondScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+  
 }
 
 // There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
@@ -157,16 +155,18 @@ function pond() {
 // as strings.
 
 // This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+var globalScope = ['duck'];
 
 // This array should contain the variable names (as strings) accessible in the bathroom function.
 
+  let bathroomScope = ['rubberDuck','duck'];
 
 // This array should contain the variable names (as strings) accessible in the bathtub function.
 
+    let bathtubScope = ['duck', 'sailorDuck','rubberDuck'];
 
 // This array should contain the variable names (as strings) accessible in the pond function.
-
+	let pondScope = ['duck','realDuck'];
 
 //////////////////PROBLEM 14////////////////////
 
