@@ -70,10 +70,18 @@
 
 // Code Here
 
+      var dog = {
+        name: 'taba',
+        color: 'gainsboro',
+        age: 60,
+        goodBoy: true
+      }
+
 // ...access the dog's name from the object and assign it to a
 // variable called boomCampClassPet.
 
 // Code Here
+      var boomCampClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
