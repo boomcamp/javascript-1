@@ -56,7 +56,7 @@ console.log(newGreeting("Hello"));
 // "apples", "milk", "eggs", "bread"
 
 // Code Here
-
+groceries = ["apples", "milk", "eggs", "bread"];
 //////////////////PROBLEM 9////////////////////
 
 // Create an object saved to the variable dog.
