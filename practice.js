@@ -98,6 +98,17 @@ var boomCampClassPet = dog.name;
 // with NAMEPARAM being the name parameter being passed in
 
 // Code here
+function nameCheck(name) {
+  if (name == 'Steven') {
+    return `What is up ${name}?`;
+  } else if (name == 'Bryan') {
+    return `Hey ${name}!`;
+  } else {
+    return `Cool name, ${name}`;
+  }
+}
+
+console.log(nameCheck('Steven'));
 
 //////////////////PROBLEM 11////////////////////
 
