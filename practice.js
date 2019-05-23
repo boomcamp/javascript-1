@@ -108,11 +108,16 @@ function nameCheck(name) {
 // The add function should return the two parameters added together
 
 // Code Here
+function add(c, d) {
+  return c + d;
+}
+
 
 // Now invoke add, passing in the numbers 3 and 4
 // storing the result in the variable mathSum.
 
 // Code Here
+var mathSum = add(3, 4);
 
 //////////////////PROBLEM 12////////////////////
 
