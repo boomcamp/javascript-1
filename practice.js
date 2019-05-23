@@ -51,6 +51,10 @@ function greeting(name) {
 // Name it newGreeting.
 
 // Code Here
+var newGreeting = function(name) {
+  return "Hello, " .concat(name);
+}
+
 
 
 //////////////////PROBLEM 8////////////////////
