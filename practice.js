@@ -64,7 +64,7 @@ newGreeting('Martin Earl');
 // "apples", "milk", "eggs", "bread"
 
 // Code Here
-
+let groceries = ["apples", "milk", "eggs", "bread"];
 
 
 //////////////////PROBLEM 9////////////////////
