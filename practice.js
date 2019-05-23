@@ -63,12 +63,17 @@ var groceries = ["apples", "milk", "eggs", "bread"];
 // and goodBoy (a boolean).
 
 // Code Here
-
+var dog = {
+  name: "Boom",
+  color: "wheat",
+  age: 2,
+  goodBoy: true
+};
 // ...access the dog's name from the object and assign it to a
 // variable called boomCampClassPet.
 
 // Code Here
-
+var boomCampClassPet=dog.name;
 //////////////////PROBLEM 10////////////////////
 
 // Write a function called nameCheck that takes in a name parameter.
