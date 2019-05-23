@@ -41,6 +41,9 @@ var boomCampGoal = null;
 // plus the value of the name parameter.
 
 // Code here
+function greeting(name) {
+  return "Hello, " .concat(name);
+}
 
 //////////////////PROBLEM 7////////////////////
 
