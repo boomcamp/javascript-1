@@ -86,7 +86,16 @@ var boomCampClassPet = dog.name;
 // with NAMEPARAM being the name parameter being passed in
 
 // Code here
-
+function nameCheck(name) {
+  if (name === 'Steven') {
+  return `What is up ${name}?`;
+  } 
+  if (name === 'Bryan') {
+    return `Hey ${name}!`;
+  }
+  return `Cool name, ${name}`;  
+} 
+nameCheck('Steven');
 //////////////////PROBLEM 11////////////////////
 
 // Create a function called add that takes in two parameters
