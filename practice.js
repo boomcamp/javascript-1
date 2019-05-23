@@ -10,6 +10,7 @@ var myName = "John Paulo Barbin";
 // Create a variable called myAge that is a number data type
 
 // Code here
+var myAge = 21;
 
 //////////////////PROBLEM 3////////////////////
 
