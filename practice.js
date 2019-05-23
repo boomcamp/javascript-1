@@ -39,13 +39,14 @@ var boomCampGoal = null;
 function greeting(name) {
   return `Hello, ${name}`;
 }
+console.log(greeting("Hello")); 
 //////////////////PROBLEM 7////////////////////
 
 // Rewrite the function greeting as a function expression.
 // Name it newGreeting.
 
 // Code Here
-
+var newGreeting = function
 //////////////////PROBLEM 8////////////////////
 
 // Create an array called groceries with the values
