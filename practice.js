@@ -19,18 +19,19 @@ var myAge = 27;
 // Code here
 var lovesCode = true;
 
-
 //////////////////PROBLEM 4////////////////////
 
 // Create a variable called greatestFear that is undefined because we fear nothing
 
 // Code here
+var greatestFear = undefined;
 
 //////////////////PROBLEM 5////////////////////
 
 // Create a variable called boomCampGoal that is null because we are just starting out
 
 // Code here
+
 
 //////////////////PROBLEM 6////////////////////
 
