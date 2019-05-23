@@ -2,6 +2,8 @@
 
 // Create a variable called myName that is a string data type
 
+const myName = 'Martin Earl'
+
 // Code here
 
 //////////////////PROBLEM 2////////////////////
@@ -9,12 +11,14 @@
 // Create a variable called myAge that is a number data type
 
 // Code here
-
+let myAge = 19;
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called lovesCode that is a boolean data type
 
 // Code here
+
+const lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
@@ -22,11 +26,15 @@
 
 // Code here
 
+let greatestFear;
+
 //////////////////PROBLEM 5////////////////////
 
 // Create a variable called boomCampGoal that is null because we are just starting out
 
 // Code here
+
+const boomCampGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -36,7 +44,10 @@
 // plus the value of the name parameter.
 
 // Code here
-
+function greeting(name){
+  return("Hello,",name);
+}
+greeting('Earl');
 //////////////////PROBLEM 7////////////////////
 
 // Rewrite the function greeting as a function expression.
@@ -44,12 +55,15 @@
 
 // Code Here
 
+
 //////////////////PROBLEM 8////////////////////
 
 // Create an array called groceries with the values
 // "apples", "milk", "eggs", "bread"
 
 // Code Here
+
+
 
 //////////////////PROBLEM 9////////////////////
 
