@@ -2,31 +2,31 @@
 
 // Create a variable called myName that is a string data type
 
-// Code here
+var myName = "Jericho";
 
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called myAge that is a number data type
 
-// Code here
+var myAge = 19;
 
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called lovesCode that is a boolean data type
 
-// Code here
+var lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
 // Create a variable called greatestFear that is undefined because we fear nothing
 
-// Code here
+var greatestFear;
 
 //////////////////PROBLEM 5////////////////////
 
 // Create a variable called boomCampGoal that is null because we are just starting out
 
-// Code here
+var boomCampGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -35,21 +35,25 @@
 // greeting should return the string "Hello, "
 // plus the value of the name parameter.
 
-// Code here
+function greeting(name) {
+  return "Hello, " + name;
+}
 
 //////////////////PROBLEM 7////////////////////
 
 // Rewrite the function greeting as a function expression.
 // Name it newGreeting.
 
-// Code Here
+var newGreeting = function(name) {
+  return "Hello, " + name;
+}
 
 //////////////////PROBLEM 8////////////////////
 
 // Create an array called groceries with the values
 // "apples", "milk", "eggs", "bread"
 
-// Code Here
+var groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
