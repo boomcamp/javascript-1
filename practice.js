@@ -75,11 +75,18 @@ let groceries = ["apples", "milk", "eggs", "bread"];
 // and goodBoy (a boolean).
 
 // Code Here
+var dog = {
+  name: 'Snow',
+  color: 'White',
+  age: 8,
+  goodBoy: true
+}
 
 // ...access the dog's name from the object and assign it to a
 // variable called boomCampClassPet.
 
 // Code Here
+boomCampClassPet = dog.name
 
 //////////////////PROBLEM 10////////////////////
 
