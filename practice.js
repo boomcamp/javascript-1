@@ -39,6 +39,10 @@
 
 // Code here
 
+function greeting(name){
+  return "Hello, ".concat(name);
+}
+
 //////////////////PROBLEM 7////////////////////
 
 // Rewrite the function greeting as a function expression.
