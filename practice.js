@@ -47,19 +47,17 @@ const boomCampGoal = null;
 function greeting(name){
   return(`Hello, ${name}`);
 }
-greeting('Earl');
+greeting('Martin Earl');
 //////////////////PROBLEM 7////////////////////
 
 // Rewrite the function greeting as a function expression.
 // Name it newGreeting.
 
 // Code Here
-function newGreeting(name){
+const newGreeting = function(name){
   return(`Hello, ${name}`);
 }
-newGreeting('Earl');
-
-
+newGreeting('Martin Earl');
 //////////////////PROBLEM 8////////////////////
 
 // Create an array called groceries with the values
