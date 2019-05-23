@@ -39,7 +39,7 @@ var boomCampGoal = null;
 function greeting(name) {
   return `Hello, ${name}`;
 }
-console.log(greeting("Hello")); 
+console.log(greeting("Hello"));  
 //////////////////PROBLEM 7////////////////////
 
 // Rewrite the function greeting as a function expression.
