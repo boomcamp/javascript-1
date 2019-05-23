@@ -20,7 +20,7 @@ const lovesCode = true;
 
 // Create a variable called greatestFear that is undefined because we fear nothing
 
-const greatestFear;
+let greatestFear;
 
 //////////////////PROBLEM 5////////////////////
 
