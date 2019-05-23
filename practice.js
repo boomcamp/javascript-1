@@ -65,6 +65,7 @@ console.log(newGreeting("Noel Layante"));
 // "apples", "milk", "eggs", "bread"
 
 // Code Here
+var groceries = ['apples', 'milk', 'eggs', 'bread'];
 
 //////////////////PROBLEM 9////////////////////
 
