@@ -31,7 +31,7 @@ var greatestFear = undefined;
 // Create a variable called boomCampGoal that is null because we are just starting out
 
 // Code here
-
+var boomCampGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
