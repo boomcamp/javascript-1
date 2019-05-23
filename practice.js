@@ -46,7 +46,9 @@ greeting('Sid');
 // Name it newGreeting.
 
 // Code Here
-
+var newGreeting = function(name) {
+  return "Hello, "+ name;
+}
 //////////////////PROBLEM 8////////////////////
 
 // Create an array called groceries with the values
