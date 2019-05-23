@@ -63,10 +63,15 @@
 // and goodBoy (a boolean).
 
 // Code Here
-
+  let dog = {
+    name: "Bruno",
+    color: "black",
+    age: 5,
+    goodBoy: false,
+  }
 // ...access the dog's name from the object and assign it to a
 // variable called boomCampClassPet.
-
+  let boomCampClassPet = dog.name;
 // Code Here
 
 //////////////////PROBLEM 10////////////////////
