@@ -63,6 +63,7 @@ var newGreeting = function(name) {
 // "apples", "milk", "eggs", "bread"
 
 // Code Here
+var groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
