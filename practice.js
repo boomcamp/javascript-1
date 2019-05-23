@@ -54,7 +54,7 @@
 // "apples", "milk", "eggs", "bread"
 
 // Code Here
-
+  var groceries = ["apples", "milk", "eggs", "bread"];
 //////////////////PROBLEM 9////////////////////
 
 // Create an object saved to the variable dog.
