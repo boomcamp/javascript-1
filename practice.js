@@ -3,13 +3,13 @@
 // Create a variable called myName that is a string data type
 
 // Code here
-var myName = "Marvin Banton"
+var myName = "Marvin Banton";
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called myAge that is a number data type
 
 // Code here
-
+var myAge = 21;
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called lovesCode that is a boolean data type
