@@ -34,19 +34,25 @@ var boomCampGoal = null;
 // greeting should return the string "Hello, "
 // plus the value of the name parameter.
 
+function greeting(name) {
+    return "Hello, " + name;
+}
+
 //////////////////PROBLEM 7////////////////////
 
 // Rewrite the function greeting as a function expression.
 // Name it newGreeting.
 
-// Code Here
+var newGreeting = function(name) {
+    return "Hello, " + name;
+}
 
 //////////////////PROBLEM 8////////////////////
 
 // Create an array called groceries with the values
 // "apples", "milk", "eggs", "bread"
 
-// Code Here
+var groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -55,12 +61,12 @@ var boomCampGoal = null;
 // name (a string), color (a string), age (a number),
 // and goodBoy (a boolean).
 
-// Code Here
+var dog = { name: "ghost", color: "white", age: 8, goodBoy: true };
 
 // ...access the dog's name from the object and assign it to a
 // variable called boomCampClassPet.
 
-// Code Here
+var boomCampClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -71,7 +77,15 @@ var boomCampGoal = null;
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in
 
-// Code here
+function nameCheck(name) {
+    if (name === 'Steven') {
+        return 'What is up Steven?';
+    } else if (name === 'Bryan') {
+        return 'Hey Bryan!';
+    } else {
+        return 'Cool name, ' + name;
+    }
+}
 
 //////////////////PROBLEM 11////////////////////
 
