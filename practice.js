@@ -3,6 +3,7 @@
 // Create a variable called myName that is a string data type
 
 // Code here
+var myName = "Jules Ballaran";
 
 //////////////////PROBLEM 2////////////////////
 
