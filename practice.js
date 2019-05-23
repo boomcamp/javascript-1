@@ -46,7 +46,10 @@ console.log(greeting("Hello"));
 // Name it newGreeting.
 
 // Code Here
-var newGreeting = function
+var newGreeting = function(name) {
+  return `Hello, ${name}`;
+}
+console.log(newGreeting("Hello"));
 //////////////////PROBLEM 8////////////////////
 
 // Create an array called groceries with the values
