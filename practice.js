@@ -87,7 +87,6 @@ function nameCheck(name) {
   } else {
     return "Cool name, " + name;
   }
-   
 }
 //////////////////PROBLEM 11////////////////////
 
@@ -96,12 +95,14 @@ function nameCheck(name) {
 // The add function should return the two parameters added together
 
 // Code Here
-
+function add(a,b) {
+  return a + b;
+}
 // Now invoke add, passing in the numbers 3 and 4
 // storing the result in the variable mathSum.
 
 // Code Here
-
+mathSum = add(3,4);
 //////////////////PROBLEM 12////////////////////
 
 // Write a function called faveColorFinder that takes in one parameter called color
