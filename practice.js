@@ -119,6 +119,21 @@ var mathSum = add(3,4);
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
+function faveColorFinder(color){
+  switch (color) {
+    case 'red':
+      return 'red is a great color';
+    case 'green':
+      return 'green is a solid favorite color';
+    case 'black':
+      return 'so trendy';
+      break;
+  
+    default:
+      return 'you need to evaluate your favorite color choice';
+      break;
+  }
+}
 
 //////////////////PROBLEM 13////////////////////
 
