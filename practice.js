@@ -41,6 +41,9 @@ var boomCampGoal = null;
 // plus the value of the name parameter.
 
 // Code here
+function greeting(name){
+  return "Hello, " + name;
+}
 
 //////////////////PROBLEM 7////////////////////
 
@@ -48,6 +51,9 @@ var boomCampGoal = null;
 // Name it newGreeting.
 
 // Code Here
+var newGreeting = function(name) {
+  return "Hello, " + name;
+}
 
 //////////////////PROBLEM 8////////////////////
 
@@ -55,6 +61,7 @@ var boomCampGoal = null;
 // "apples", "milk", "eggs", "bread"
 
 // Code Here
+var groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -64,11 +71,18 @@ var boomCampGoal = null;
 // and goodBoy (a boolean).
 
 // Code Here
+var dog = {
+  name: "Barbs",
+  color: "Brown",
+  age: 6,
+  goodBoy: true
+};
 
 // ...access the dog's name from the object and assign it to a
 // variable called boomCampClassPet.
 
 // Code Here
+var boomCampClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
