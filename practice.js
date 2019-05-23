@@ -73,11 +73,13 @@ var groceries = ["apples", "milk", "eggs", "bread"];
 // and goodBoy (a boolean).
 
 // Code Here
+var dog = {name: "Browny", color: "Brown", age: 2, goodBoy: true || false};
 
 // ...access the dog's name from the object and assign it to a
 // variable called boomCampClassPet.
 
 // Code Here
+var boomCampClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
