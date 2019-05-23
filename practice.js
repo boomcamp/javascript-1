@@ -136,6 +136,18 @@ mathSum = add(3,4);
 
 // Code here
 
+function faveColorFinder(color){
+  if(color === 'red'){
+    return('red is a great color');
+  } else if(color === 'green'){
+    return ('green is a solid favorite color');
+  }else if(color === 'black'){
+    return('so trendy');
+  }else{
+    return('you need to evaluate your favorite color choice');
+  }
+}
+
 //////////////////PROBLEM 13////////////////////
 
 let duck = 'cute';
@@ -158,7 +170,7 @@ function pond() {
 // as strings.
 
 // This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+let globalScope = ['duck'];
 
 // This array should contain the variable names (as strings) accessible in the bathroom function.
 let bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
