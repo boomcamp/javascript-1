@@ -14,7 +14,7 @@
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called lovesCode that is a boolean data type
-
+  var lovesCode = true || false;
 // Code here
 
 //////////////////PROBLEM 4////////////////////
