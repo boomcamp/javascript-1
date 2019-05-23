@@ -53,6 +53,11 @@ console.log(greeting("Noel Layante"));
 // Name it newGreeting.
 
 // Code Here
+var newGreeting = function(name) {
+  return "Hello, " + name;
+}
+
+console.log(newGreeting("Noel Layante"));
 
 //////////////////PROBLEM 8////////////////////
 
