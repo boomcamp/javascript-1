@@ -3,7 +3,7 @@
 // Create a variable called myName that is a string data type
 
 // Code here
-
+  var myName = 'Jomar Bandol';
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called myAge that is a number data type
