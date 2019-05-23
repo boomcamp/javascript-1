@@ -54,7 +54,7 @@ var newGreeting = function(name) {
 // "apples", "milk", "eggs", "bread"
 
 // Code Here
-var groceries = ["apples", "milk", "eggs", "bread"]
+var groceries = ["apples", "milk", "eggs", "bread"];
 //////////////////PROBLEM 9////////////////////
 
 // Create an object saved to the variable dog.
@@ -63,12 +63,12 @@ var groceries = ["apples", "milk", "eggs", "bread"]
 // and goodBoy (a boolean).
 
 // Code Here
-
+var dog = {name: "Bella", color: "White", age: 3, goodBoy: true};
 // ...access the dog's name from the object and assign it to a
 // variable called boomCampClassPet.
 
 // Code Here
-
+var boomCampClassPet = dog.name;
 //////////////////PROBLEM 10////////////////////
 
 // Write a function called nameCheck that takes in a name parameter.
