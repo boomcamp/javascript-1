@@ -3,29 +3,29 @@
 // Create a variable called myName that is a string data type
 
 // Code here
-
+let myName = "John Paul Garcia";
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called myAge that is a number data type
-
+let myAge = 20;
 // Code here
 
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called lovesCode that is a boolean data type
-
+let lovesCode = !false;
 // Code here
 
 //////////////////PROBLEM 4////////////////////
 
 // Create a variable called greatestFear that is undefined because we fear nothing
-
+let greatestFear = undefined;
 // Code here
 
 //////////////////PROBLEM 5////////////////////
 
 // Create a variable called boomCampGoal that is null because we are just starting out
-
+let boomCampGoal = null;
 // Code here
 
 //////////////////PROBLEM 6////////////////////
@@ -34,14 +34,16 @@
 // accepts name as its only parameter.
 // greeting should return the string "Hello, "
 // plus the value of the name parameter.
-
+function greeting(name) {
+  return "Hello, "+name;
+}
 // Code here
 
 //////////////////PROBLEM 7////////////////////
 
 // Rewrite the function greeting as a function expression.
 // Name it newGreeting.
-
+let newGreeting = function(name){return "Hello, "+name;}
 // Code Here
 
 //////////////////PROBLEM 8////////////////////
@@ -50,7 +52,7 @@
 // "apples", "milk", "eggs", "bread"
 
 // Code Here
-
+let groceries = ["apples","milk","eggs","bread"]
 //////////////////PROBLEM 9////////////////////
 
 // Create an object saved to the variable dog.
