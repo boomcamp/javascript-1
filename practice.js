@@ -3,6 +3,7 @@
 // Create a variable called myName that is a string data type
 
 // Code here
+var myName = "John Paulo Barbin";
 
 //////////////////PROBLEM 2////////////////////
 
@@ -43,6 +44,7 @@
 // Name it newGreeting.
 
 // Code Here
+
 
 //////////////////PROBLEM 8////////////////////
 
