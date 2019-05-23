@@ -45,7 +45,7 @@ const boomCampGoal = null;
 
 // Code here
 function greeting(name){
-  return("Hello,",name);
+  return(`Hello, ${name}`);
 }
 greeting('Earl');
 //////////////////PROBLEM 7////////////////////
@@ -54,6 +54,10 @@ greeting('Earl');
 // Name it newGreeting.
 
 // Code Here
+function newGreeting(name){
+  return(`Hello, ${name}`);
+}
+newGreeting('Earl');
 
 
 //////////////////PROBLEM 8////////////////////
