@@ -19,6 +19,7 @@ var myAge = 27;
 // Code here
 var lovesCode = true;
 
+
 //////////////////PROBLEM 4////////////////////
 
 // Create a variable called greatestFear that is undefined because we fear nothing
