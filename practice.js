@@ -36,7 +36,10 @@ var boomCampGoal = null;
 // plus the value of the name parameter.
 
 // Code here
-
+function greeting(name){
+  return "Hello, "+ name;
+}
+greeting('Sid');
 //////////////////PROBLEM 7////////////////////
 
 // Rewrite the function greeting as a function expression.
