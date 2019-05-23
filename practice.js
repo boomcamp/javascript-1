@@ -80,6 +80,12 @@ var groceries = ['apples', 'milk', 'eggs', 'bread'];
 // variable called boomCampClassPet.
 
 // Code Here
+let dog = {
+  name: 'string',
+  color:'string',
+  age: 21,
+  goodBoy: true
+}
 
 //////////////////PROBLEM 10////////////////////
 
