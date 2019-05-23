@@ -19,6 +19,10 @@ Complete all the activities inside of `./practice.js` to make the spec runner pa
 In order to check the progress of the spec runner, open `./SpecRunner.html` with your browser.
 Remember to commit and push your code often. Good luck!
 
+## Finished
+
+Open a pull request from your `submission` branch back to the `master` branch of this repository.
+
 ## Tips and Tricks
 
 One of the biggest tools at the developer's disposal is the browser's built-in debugger.
