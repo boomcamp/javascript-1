@@ -35,12 +35,8 @@ var boomCampGoal = null;
 // greeting should return the string "Hello, "
 // plus the value of the name parameter.
 
-function greeting(name) {
-   if (name === "Trogdor") {
-      return "Hello, Trogdor";
-   } else {
-      return "Hello, undefined";
-   }
+function greeting(myName) {
+   return "Hello, " + myName;
 }
 
 //////////////////PROBLEM 7////////////////////
@@ -48,12 +44,8 @@ function greeting(name) {
 // Rewrite the function greeting as a function expression.
 // Name it newGreeting.
 
-var newGreeting = function(name) {
-   if (name === "Trogdor") {
-      return "Hello, Trogdor";
-   } else {
-      return "Hello, undefined";
-   }
+var newGreeting = function(myName) {
+   return "Hello, " + myName;
 };
 
 //////////////////PROBLEM 8////////////////////
