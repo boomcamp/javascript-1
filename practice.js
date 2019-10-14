@@ -174,7 +174,6 @@ function pond() {
 // Given the functions and variables above, edit the arrays
 // below to contain only the appropriate variable names
 // as strings.
-beforeEach(function() { 
 // This array should contain the variable names (as strings) accessible in the global scope.
 let globalScope = ['duck'];
 
@@ -186,7 +185,7 @@ let bathtubScope = ['sailorDuck', 'rubberDuck', 'duck'];
 
 // This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = ['realDuck', 'duck'];
-})
+
 //////////////////PROBLEM 14////////////////////
 
 // Create a variable called age with your age assigned to you
