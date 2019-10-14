@@ -174,6 +174,7 @@ function pond() {
 // Given the functions and variables above, edit the arrays
 // below to contain only the appropriate variable names
 // as strings.
+
 // This array should contain the variable names (as strings) accessible in the global scope.
 let globalScope = ['duck'];
 
