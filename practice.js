@@ -102,17 +102,17 @@
 
 //////////////////PROBLEM 13////////////////////
 
-let duck = 'cute';
+var duck = 'cute';
 
 function bathroom() {
-  let rubberDuck = 'squeaky';
+  var rubberDuck = 'squeaky';
   function bathtub() {
-    let sailorDuck = 'nautical';
+    var sailorDuck = 'nautical';
   }
 }
 
 function pond() {
-  let realDuck = 'fluffy';
+  var realDuck = 'fluffy';
 }
 
 // There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
@@ -122,16 +122,16 @@ function pond() {
 // as strings.
 
 // This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+var globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
 
 // This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+var bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
 
 // This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+var bathtubScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
 
 // This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+var pondScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
 
 //////////////////PROBLEM 14////////////////////
 
