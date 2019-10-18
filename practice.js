@@ -1,6 +1,7 @@
 //////////////////PROBLEM 1////////////////////
 
 // Create a variable called myName that is a string data type
+// IMPORTANT NOTE: use var for declaring variables
 
 // Code here
 
@@ -42,14 +43,14 @@
 // Rewrite the function greeting as a function expression.
 // Name it newGreeting.
 
-// Code Here
+// Code here
 
 //////////////////PROBLEM 8////////////////////
 
 // Create an array called groceries with the values
 // "apples", "milk", "eggs", "bread"
 
-// Code Here
+// Code here
 
 //////////////////PROBLEM 9////////////////////
 
@@ -58,12 +59,12 @@
 // name (a string), color (a string), age (a number),
 // and goodBoy (a boolean).
 
-// Code Here
+// Code here
 
 // ...access the dog's name from the object and assign it to a
 // variable called boomCampClassPet.
 
-// Code Here
+// Code here
 
 //////////////////PROBLEM 10////////////////////
 
@@ -82,12 +83,12 @@
 // that will be numbers.
 // The add function should return the two parameters added together
 
-// Code Here
+// Code here
 
 // Now invoke add, passing in the numbers 3 and 4
 // storing the result in the variable mathSum.
 
-// Code Here
+// Code here
 
 //////////////////PROBLEM 12////////////////////
 
@@ -102,48 +103,48 @@
 
 //////////////////PROBLEM 13////////////////////
 
-let duck = 'cute';
-
-function bathroom() {
-  let rubberDuck = 'squeaky';
-  function bathtub() {
-    let sailorDuck = 'nautical';
-  }
-}
-
-function pond() {
-  let realDuck = 'fluffy';
-}
-
-// There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
-// all within different scopes.
-// Given the functions and variables above, edit the arrays
-// below to contain only the appropriate variable names
-// as strings.
-
-// This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
-
-// This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
-
-// This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
-
-// This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+var duck = 'cute'; 
+  
+function bathroom() { 
+  var rubberDuck = 'squeaky'; 
+  function bathtub() { 
+    var sailorDuck = 'nautical'; 
+  } 
+} 
+ 
+function pond() { 
+  var realDuck = 'fluffy'; 
+} 
+ 
+// There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck 
+// all within different scopes. 
+// Given the functions and variables above, edit the arrays 
+// below to contain only the appropriate variable names 
+// as strings. 
+ 
+// This array should contain the variable names (as strings) accessible in the global scope. 
+var globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']; 
+ 
+// This array should contain the variable names (as strings) accessible in the bathroom function. 
+var bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']; 
+ 
+// This array should contain the variable names (as strings) accessible in the bathtub function. 
+var bathtubScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']; 
+ 
+// This array should contain the variable names (as strings) accessible in the pond function. 
+var pondScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']; 
 
 //////////////////PROBLEM 14////////////////////
 
 // Create a variable called age with your age assigned to you
 
-// Code Here
+// Code here
 
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-// Code Here
+// Code here
 
 // Good news! We can live forever. Set your age to 999
 
-// Code Here
+// Code here
