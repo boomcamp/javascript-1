@@ -1,4 +1,5 @@
 //////////////////PROBLEM 1////////////////////
+// Note: use var for declaring variables
 
 // Create a variable called myName that is a string data type
 
@@ -102,36 +103,36 @@
 
 //////////////////PROBLEM 13////////////////////
 
-let duck = 'cute';
-
-function bathroom() {
-  let rubberDuck = 'squeaky';
-  function bathtub() {
-    let sailorDuck = 'nautical';
-  }
-}
-
-function pond() {
-  let realDuck = 'fluffy';
-}
-
-// There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
-// all within different scopes.
-// Given the functions and variables above, edit the arrays
-// below to contain only the appropriate variable names
-// as strings.
-
-// This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
-
-// This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
-
-// This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
-
-// This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+var duck = 'cute'; 
+  
+ function bathroom() { 
+   var rubberDuck = 'squeaky'; 
+   function bathtub() { 
+     var sailorDuck = 'nautical'; 
+   } 
+ } 
+  
+ function pond() { 
+   var realDuck = 'fluffy'; 
+ } 
+  
+ // There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck 
+ // all within different scopes. 
+ // Given the functions and variables above, edit the arrays 
+ // below to contain only the appropriate variable names 
+ // as strings. 
+  
+ // This array should contain the variable names (as strings) accessible in the global scope. 
+ var globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']; 
+  
+ // This array should contain the variable names (as strings) accessible in the bathroom function. 
+ var bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']; 
+  
+ // This array should contain the variable names (as strings) accessible in the bathtub function. 
+ var bathtubScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']; 
+  
+ // This array should contain the variable names (as strings) accessible in the pond function. 
+ var pondScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck']; 
 
 //////////////////PROBLEM 14////////////////////
 
